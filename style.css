@@ -166,3 +166,63 @@ span{
     background-color: aquamarine;
     border: 1px solid black
 }
+
+/* breackpoint lg maggiore di 1100px */
+@media screen and (min-width: 1100px) {
+
+
+    /* Spacings */
+    .py-lg-3 {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+
+    .py-lg-5 {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+
+
+
+    .col-lg-1 {
+        width: calc((100% / 12) * 1);
+    }
+
+    .col-lg-2 {
+        width: calc((100% / 12) * 2);
+    }
+
+
+
+}
+
+
+/* breackpoint xl maggiore di 700 */
+@media screen and (min-width: 700px) {
+
+    .col-xl-1 {
+        width: calc((100% / 12) * 1);
+    }
+
+    .col-xl-2 {
+        width: calc((100% / 12) * 2);
+    }
+
+
+}
+
+
+/* breackpoint xl maggiore di 600 */
+@media screen and (min-width: 600px) {
+
+    .col-xxl-1 {
+        width: calc((100% / 12) * 1);
+    }
+
+    .col-xxl-2 {
+        width: calc((100% / 12) * 2);
+    }
+
+}
