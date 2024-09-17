@@ -61,8 +61,16 @@ span{
     display: flex;
 }
 
+.my-2{
+    margin-top: 1rem;
+}
+
 .jc-end{
     justify-content: flex-end;
+}
+
+.ai-end{
+    align-items: end;
 }
 
 .ai-center{
