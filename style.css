@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --spoty-sidebar: #000;
+    --spoty-white: #fff;
+    --spoty-topbar: #080b12;
+    --spoty-topbar-text: #7d7f84;
+    --spoty-line: #adff2f;
+    --spoty-primary-sidebar: #a3a3a3;
+    --spoty-secondary-sidebar: #f8f8f8;
+
+}
+
+/*#debug region*/
+
+.debug *{
+    border: 1px dashed;
+}
+
+/*#common region*/
+
+body{
+    width: 100%;
+    height: 100vh;
+}
