@@ -33,6 +33,25 @@ a{
     text-decoration: none;
 }
 
+ul{
+    line-height: 1.5rem;
+}
+
+li{
+    height: 20px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid white;
+    a{
+        color: var(--spoty-primary-sidebar);
+    }
+}
+
+span{
+    height: 20px;
+    width: 100px;
+    background-color: green;
+}
 /*#utilities region*/
 .d-flex{
     display: flex;
@@ -44,6 +63,14 @@ a{
 
 .ai-center{
     align-items: center;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
 }
 
 /*#top region*/
@@ -80,6 +107,23 @@ a{
     border: 2px solid var(--spoty-topbar-text);
     border-radius: 1.5rem;
 }
+
+/*.special::after{
+    content: "";
+    display: block;
+    width: 5.5rem;
+    height: 50px;
+    background-color: var(--spoty-line);
+    margin-top: 1rem;
+}*/
+
+.bg-grey{
+    background-color: var(--spoty-primary-sidebar);
+}
+
+/*strong.bg-grey{
+    padding: 0.55rem;
+}*/
 
 /*bottom region*/
 
