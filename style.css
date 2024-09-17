@@ -29,6 +29,23 @@ body{
     overflow: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
+/*#utilities region*/
+.d-flex{
+    display: flex;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+.ai-center{
+    align-items: center;
+}
+
 /*#top region*/
 
 .top{
@@ -46,15 +63,22 @@ body{
     background-color: var(--spoty-topbar);
 }
 
-.container{
+.content{
     height: calc(100% - 175px);
     width: calc(100% - 245px);
 }
 
 .logo{
-    height: 200px;
+    height: 50px;
     width: 200px;
-    color: red;
+    background-color: red;
+}
+
+.tb-text{
+    color: var(--spoty-topbar-text);
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--spoty-topbar-text);
+    border-radius: 1.5rem;
 }
 
 /*bottom region*/
