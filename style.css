@@ -37,6 +37,7 @@ body{
 
 .sidebar{
     width: 245px;
+    height: calc(100vh - 80px);
     background-color: var(--spoty-sidebar);
 }
 
@@ -50,10 +51,15 @@ body{
     width: calc(100% - 245px);
 }
 
-/*topbar height: 95 px*/
+.logo{
+    height: 200px;
+    width: 200px;
+    color: red;
+}
 
 /*bottom region*/
 
 .bottom{
     height: 80px;
+    background-color: blue;
 }
