@@ -161,6 +161,7 @@ h2, .img-title, .home, .playlist{
     height: calc(100vh - 80px);
     background-color: var(--spoty-sidebar);
     flex-shrink: 0;
+    position: relative;
 }
 
 .topbar{
@@ -211,6 +212,13 @@ nav li{
     color: var(--spoty-sidebar);
 }
 
+.profile-img img{
+    width: 25px;
+    background-color: var(--spoty-primary-sidebar);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .download:after{
     content: "";
     display: block;
@@ -224,7 +232,12 @@ nav li{
     color: var(--spoty-primary-sidebar);
 }
 
-.install img{
+.bottom-nav{
+    position: absolute;
+    bottom: 0;
+}
+
+.download img{
     width: 10px;
 }
 
