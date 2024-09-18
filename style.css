@@ -114,6 +114,11 @@ h2{
 .round{
     border-radius: 50%;
 }
+
+.col-2{
+    width: calc(100% / 12 * 2);
+    
+}
 /*#top region*/
 
 .top{
@@ -165,10 +170,6 @@ h2{
     background-color: var(--spoty-primary-sidebar);
 }
 
-.col-2{
-    width: calc(100% / 12 * 2);
-    
-}
 
 /*strong.bg-grey{
     padding: 0.55rem;
