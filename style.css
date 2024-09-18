@@ -186,14 +186,18 @@ nav li{
     border-radius: 1.5rem;
 }
 
-/*.special:hover{
+.special{
+    padding: 0.75rem;
+}
+
+.special:after{
     content: "";
     display: block;
     width: 2rem;
     height: 2px;
     background-color: var(--spoty-line);
     margin: auto;
-}*/
+}
 
 .bg-grey{
     background-color: var(--spoty-primary-sidebar);
@@ -213,14 +217,15 @@ span, .install img{
     position: relative;
 }
 
-.special-sidebar::after{
+.special-sidebar::after {
     content: "";
     display: block;
     width: 2px;
-    height: 20px;
+    height: 100%;
     background-color: var(--spoty-line);
     position: absolute;
-    left: 0;
+    left: -16px;
+    top: 0;
 }
 
 nav{
