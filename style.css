@@ -212,20 +212,34 @@ nav li{
     color: var(--spoty-sidebar);
 }
 
+.profile-img{
+    padding: 0.5rem 0;
+
+    .img-title{
+        font-size: 0.8rem;
+    }
+}
+
 .profile-img img{
     width: 25px;
     background-color: var(--spoty-primary-sidebar);
     border-radius: 50%;
     margin-right: 10px;
+
 }
 
 .download:after{
     content: "";
     display: block;
-    width: 8rem;
-    height: 2px;
+    width: 9rem;
+    height: 1px;
     background-color: var(--spoty-primary-sidebar);
     margin: auto;
+    margin-top: 10px;
+}
+
+.download{
+    margin-bottom: 0.5rem;
 }
 
 .download, .install{
@@ -272,7 +286,6 @@ nav{
 }
 
 .left{
-    width: 180px;
 
     img{
         width: 60px;
