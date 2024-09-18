@@ -78,6 +78,10 @@ h2, .img-title, .home, .playlist{
     padding: 0.75rem;
 }
 
+.d-none{
+    display: none;
+}
+
 /*#utilities region*/
 .d-flex{
     display: flex;
@@ -381,13 +385,17 @@ nav{
         width: 50px;
     }
 
-    .d-none{
+    .d-nones{
         display: none;
     }
 
     .content-sm{
         width: calc(100% - 50px);
         overflow-y: auto;
+    }
+
+    .d-block{
+        display: block;
     }
 
 }
