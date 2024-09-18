@@ -42,6 +42,8 @@ ul{
 }
 
 li{
+    color: var(--spoty-primary-sidebar);
+
     a{
         color: var(--spoty-primary-sidebar);
     }
@@ -63,13 +65,7 @@ img{
     width: 100%;
 }
 
-span{
-    height: 20px;
-    width: 100px;
-    background-color: green;
-}
-
-h2, .img-title, .home{
+h2, .img-title, .home, .playlist{
     color: var(--spoty-white);
 }
 
@@ -182,6 +178,10 @@ h2, .img-title, .home{
 
 .bg-grey{
     background-color: var(--spoty-primary-sidebar);
+}
+
+span, .install img{
+    color: var(--spoty-primary-sidebar);
 }
 
 
