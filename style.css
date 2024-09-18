@@ -186,14 +186,14 @@ nav li{
     border-radius: 1.5rem;
 }
 
-.special:hover{
+/*.special:hover{
     content: "";
     display: block;
     width: 2rem;
     height: 2px;
     background-color: var(--spoty-line);
     margin: auto;
-}
+}*/
 
 .bg-grey{
     background-color: var(--spoty-primary-sidebar);
@@ -209,13 +209,13 @@ span, .install img{
     margin-left: 0.5rem;
 }
 
-.special-sidebar{
+.active{
     position: relative;
 }
 
-.special-sidebar:hover{
+.special-sidebar::after{
     content: "";
-    display: inline;
+    display: block;
     width: 2px;
     height: 20px;
     background-color: var(--spoty-line);
