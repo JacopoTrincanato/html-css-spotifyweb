@@ -64,8 +64,12 @@ span{
     background-color: green;
 }
 
-h2{
+h2, .img-title{
     color: var(--spoty-white);
+}
+
+[class^="col"] {
+    padding: 0.5rem;
 }
 
 /*#utilities region*/
@@ -118,6 +122,14 @@ h2{
 .col-2{
     width: calc(100% / 12 * 2);
     
+}
+
+.img-title, .subtitle{
+    text-align: center;
+}
+
+.subtitle{
+    color: var(--spoty-topbar-text);
 }
 /*#top region*/
 
