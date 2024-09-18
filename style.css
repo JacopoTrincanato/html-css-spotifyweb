@@ -224,7 +224,7 @@ img:hover{
 .special:after{
     content: "";
     display: block;
-    width: 2rem;
+    width: 30%;
     height: 2px;
     background-color: var(--spoty-line);
     margin: auto;
@@ -352,7 +352,7 @@ nav{
 }
 
 .audiobar{
-    width: 100px;
+    width: 100%;
     height: 2px;
     color: white;
 
@@ -394,6 +394,10 @@ nav{
         width: calc((100% / 12) * 3);
     }
 
+    .header li{
+        font-size: 0.7rem;
+    }
+
 }
 
 
@@ -408,9 +412,10 @@ nav{
         flex-wrap: wrap;
     }
 
-    .header li{
-        font-size: 0.7rem;
+    .li-sm{
+        font-size: 0.5rem;
     }
+    
 }
 
 
@@ -438,12 +443,26 @@ nav{
         overflow-y: auto;
     }
 
+    .li-xm{
+        font-size: 0.3rem;
+    }
+
     .d-block{
         display: block;
+        
+    }
+
+    .logo img{
+        color: var(--spoty-white);
+        width: 20px;
     }
 
     .download:after{
         display: none;
+    }
+
+    .icons-sm{
+        font-size: 0.6rem;
     }
 
 }
