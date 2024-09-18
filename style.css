@@ -205,7 +205,7 @@ nav li{
     padding: 0.75rem;
 }
 
-a:hover{
+a:hover, .download a:hover, .left-icons i:hover{
     color: white;
 }
 
@@ -213,6 +213,9 @@ a:hover{
     background-color: white;
 }
 
+.topbar a:hover{
+    font-size: 1rem;
+}
 
 img:hover{
     color: rgba(0, 0, 0, 0.5);
@@ -263,7 +266,7 @@ img:hover{
     margin-bottom: 0.5rem;
 }
 
-.download, .install{
+.download a, .install{
     color: var(--spoty-primary-sidebar);
 }
 
@@ -325,6 +328,11 @@ nav{
     }
 }
 
+.final.subtitle:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 .left-icons{
     color: var(--spoty-primary-sidebar);
     padding: 1rem;
@@ -365,6 +373,10 @@ nav{
 
 .left-time, .right-time{
     height: 2px;
+}
+
+.fa-circle-play:hover{
+    font-size: 3rem;
 }
 
 /* breackpoint lg maggiore di 1100px */
