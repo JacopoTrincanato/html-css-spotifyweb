@@ -167,6 +167,11 @@ h2, .img-title, .home, .playlist{
     height: 100%;
     width: calc(100% - 180px);
     background-color: var(--spoty-content);
+    overflow-y: auto;
+}
+
+nav li{
+    font-size: 0.8rem;
 }
 
 .logo img{
@@ -181,7 +186,7 @@ h2, .img-title, .home, .playlist{
     border-radius: 1.5rem;
 }
 
-.special::after{
+.special:hover{
     content: "";
     display: block;
     width: 2rem;
@@ -204,8 +209,18 @@ span, .install img{
     margin-left: 0.5rem;
 }
 
-.bl{
-    border-left: 2px solid var(--spoty-line);
+.special-sidebar{
+    position: relative;
+}
+
+.special-sidebar:hover{
+    content: "";
+    display: inline;
+    width: 2px;
+    height: 20px;
+    background-color: var(--spoty-line);
+    position: absolute;
+    left: 0;
 }
 
 nav{
@@ -219,11 +234,19 @@ nav{
     background-color: var(--spoty-bottom);
 }
 
-.left, .right, .center{
-    height: 20px;
-    width: 200px;
-    background-color: aquamarine;
-    border: 1px solid black
+.left{
+    width: 180px;
+
+    img{
+        width: 60px;
+        padding: 0.5rem;
+        float: left;
+    }
+    
+
+    .img-title, .subtitle{
+        font-size: 0.5rem;
+    }
 }
 
 /* breackpoint lg maggiore di 1100px */
