@@ -13,6 +13,7 @@
     --spoty-primary-sidebar: #a3a3a3;
     --spoty-secondary-sidebar: #f8f8f8;
     --spoty-content: #141922;
+    --spoty-bottom: #282828;
 
 }
 
@@ -41,12 +42,16 @@ ul{
 }
 
 li{
-    height: 20px;
-    width: 100px;
-    background-color: aqua;
-    border: 1px solid white;
     a{
         color: var(--spoty-primary-sidebar);
+    }
+
+    img{
+        width: 20px;
+    }
+
+    a, img{
+        vertical-align: middle;
     }
 }
 
@@ -64,12 +69,12 @@ span{
     background-color: green;
 }
 
-h2, .img-title{
+h2, .img-title, .home{
     color: var(--spoty-white);
 }
 
-[class^="col"] {
-    padding: 0.5rem;
+[class^="col"], h2, .main-subtitle {
+    padding: 0.75rem;
 }
 
 /*#utilities region*/
@@ -83,7 +88,6 @@ h2, .img-title{
 
 .row{
     display: flex;
-    margin: 0 -1rem;
     flex-wrap: wrap;
 }
 
@@ -128,7 +132,7 @@ h2, .img-title{
     text-align: center;
 }
 
-.subtitle{
+.subtitle, .main-subtitle{
     color: var(--spoty-topbar-text);
 }
 /*#top region*/
@@ -145,7 +149,7 @@ h2, .img-title{
 }
 
 .topbar{
-    height: 95px;
+    height: 60px;
     background-color: var(--spoty-topbar);
 }
 
@@ -153,13 +157,11 @@ h2, .img-title{
     height: 100%;
     width: calc(100% - 180px);
     background-color: var(--spoty-content);
-    overflow-y: auto;
 }
 
-.logo{
-    height: 50px;
-    width: 200px;
-    background-color: red;
+.logo img{
+    padding: 0.5rem;
+    width: 150px;
 }
 
 .tb-text{
@@ -195,7 +197,7 @@ h2, .img-title{
 
 .bottom{
     height: 80px;
-    background-color: blue;
+    background-color: var(--spoty-bottom);
 }
 
 .left, .right, .center{
@@ -255,7 +257,7 @@ h2, .img-title{
 
     .content-sm{
         width: calc(100% - 50px);
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 
 }
