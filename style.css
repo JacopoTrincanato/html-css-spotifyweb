@@ -313,8 +313,28 @@ nav{
     padding: 1rem;
 }
 
-.center-icons i, .right-icons i{
+.center-icons i, .right-icons i, .audiobar > span{
     color: var(--spoty-secondary-sidebar);
+}
+
+.audiobar{
+    width: 100px;
+    height: 10px;
+    color: white;
+}
+
+.left-time{
+    color: var(--spoty-topbar-text);
+    width: 30%;
+}
+
+.right-time{
+    color: var(--spoty-primary-sidebar);
+    width: 70%;
+}
+
+.left-time, .right-time{
+    height: 10px;
 }
 
 /* breackpoint lg maggiore di 1100px */
