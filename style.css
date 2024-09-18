@@ -12,6 +12,7 @@
     --spoty-line: #adff2f;
     --spoty-primary-sidebar: #a3a3a3;
     --spoty-secondary-sidebar: #f8f8f8;
+    --spoty-content: #141922;
 
 }
 
@@ -71,6 +72,12 @@ span{
     margin-top: 1rem;
 }
 
+.row{
+    display: flex;
+    margin: 0 -1rem;
+    flex-wrap: wrap;
+}
+
 .jc-end{
     justify-content: flex-end;
 }
@@ -109,9 +116,10 @@ span{
 }
 
 .sidebar{
-    width: 245px;
+    width: 180px;
     height: calc(100vh - 80px);
     background-color: var(--spoty-sidebar);
+    flex-shrink: 0;
 }
 
 .topbar{
@@ -121,8 +129,9 @@ span{
 
 .content{
     height: 100%;
-    width: calc(100% - 245px);
-    background-color: yellow;
+    width: calc(100% - 180px);
+    background-color: var(--spoty-content);
+    overflow-y: auto;
 }
 
 .logo{
@@ -153,10 +162,7 @@ span{
 
 .col-2{
     width: calc(100% / 12 * 2);
-    height: 60px;
-    background-color: lightgreen;
-    border: 1px solid black;
-    display: inline-block;
+    
 }
 
 /*strong.bg-grey{
