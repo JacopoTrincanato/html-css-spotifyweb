@@ -321,10 +321,23 @@ nav{
     color: var(--spoty-secondary-sidebar);
 }
 
+.center-icons i{
+    padding: 0.5rem 1.5rem;
+}
+
+.right-icons i{
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+}
+
 .audiobar{
     width: 100px;
     height: 10px;
     color: white;
+
+    strong{
+        font-size: 0.7rem;
+    }
 }
 
 .left-time{
@@ -396,6 +409,10 @@ nav{
 
     .d-block{
         display: block;
+    }
+
+    .download:after{
+        display: none;
     }
 
 }
