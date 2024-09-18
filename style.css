@@ -185,6 +185,10 @@ nav li{
     width: 150px;
 }
 
+.library{
+    margin-bottom: 0.5rem;
+}
+
 .tb-text{
     color: var(--spoty-button);
     padding: 0.75rem 1.25rem;
@@ -285,10 +289,12 @@ nav{
     background-color: var(--spoty-bottom);
 }
 
+
+
 .left{
 
     img{
-        width: 60px;
+        width: 50px;
         padding: 0.5rem;
         float: left;
     }
@@ -298,8 +304,17 @@ nav{
         text-align: left;
     }
     .img-title, .subtitle{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
+}
+
+.left-icons{
+    color: var(--spoty-primary-sidebar);
+    padding: 1rem;
+}
+
+.center-icons i, .right-icons i{
+    color: var(--spoty-secondary-sidebar);
 }
 
 /* breackpoint lg maggiore di 1100px */
