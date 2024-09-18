@@ -36,13 +36,17 @@ a{
     text-decoration: none;
 }
 
+i{
+    text-align: center;
+}
+
 ul{
-    line-height: 1.5rem;
     list-style: none;
 }
 
 li{
     color: var(--spoty-primary-sidebar);
+    line-height: 2rem;
 
     a{
         color: var(--spoty-primary-sidebar);
@@ -126,6 +130,16 @@ h2, .img-title, .home, .playlist{
 
 .img-title, .subtitle{
     text-align: center;
+    margin-top: 0.5rem;
+}
+
+.img-title{
+    font-weight: 800;
+}
+
+.subtitle{
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .subtitle, .main-subtitle{
@@ -167,30 +181,35 @@ h2, .img-title, .home, .playlist{
     border-radius: 1.5rem;
 }
 
-/*.special::after{
+.special::after{
     content: "";
     display: block;
-    width: 5.5rem;
-    height: 50px;
+    width: 2rem;
+    height: 2px;
     background-color: var(--spoty-line);
-    margin-top: 1rem;
-}*/
+    margin: auto;
+}
 
 .bg-grey{
     background-color: var(--spoty-primary-sidebar);
+    padding: 1rem 0.6rem;
+    color: var(--spoty-sidebar);
 }
 
 span, .install img{
     color: var(--spoty-primary-sidebar);
 }
 
+.ml{
+    margin-left: 0.5rem;
+}
 
-/*strong.bg-grey{
-    padding: 0.55rem;
-}*/
+.bl{
+    border-left: 2px solid var(--spoty-line);
+}
 
-.top-nav{
-    width: 100%;
+nav{
+    padding: 1rem;
 }
 
 /*bottom region*/
