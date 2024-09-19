@@ -173,7 +173,7 @@ h2, .img-title, .home, .playlist{
     background-color: var(--spoty-topbar);
 }
 
-.favicon{
+.logo-sm{
     color: white;
 }
 
@@ -477,15 +477,11 @@ nav{
 
 }
 
-/* breackpoint m minore di 940 */
+/* breackpoint m minore di 940px */
 @media screen and (max-width: 940px) {
 
     .icons-sm{
         font-size: 0.6rem;
-    }
-
-    .rights-icons, .lefts{
-        width: 20%;
     }
 
     .centers{
@@ -496,7 +492,7 @@ nav{
 }
 
 
-/* breackpoint m minore di 700 */
+/* breackpoint m minore di 700px */
 @media screen and (max-width: 700px) {
 
     .col-m-4 {
@@ -514,7 +510,7 @@ nav{
 }
 
 
-/* breackpoint sm minore di 600 */
+/* breackpoint sm minore di 600px */
 @media screen and (max-width: 600px) {
 
     .col-sm-6 {
@@ -547,22 +543,16 @@ nav{
         
     }
 
+    .center-icons-xs i{
+        padding: 0.5rem;
+    }  
+
 }
 
-/* breackpoint m minore di 940 */
-@media screen and (max-width: 940px) {
+/* breackpoint m minore di 555px */
+@media screen and (max-width: 555px) {
 
-    .icons-sm{
-        font-size: 0.6rem;
-    }
-
-    .rights-icons, .lefts{
+    .centers-xs{
         width: 20%;
-    }
-
-    .centers{
-        width: 40%;
-    }
-
-    
+    }  
 }
