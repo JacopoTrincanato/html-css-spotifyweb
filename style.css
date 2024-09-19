@@ -336,6 +336,7 @@ a:hover, .download a:hover, .left-icons i:hover, .white a{
 
 nav{
     padding: 1rem;
+    height: 100%;
 }
 
 /*bottom region*/
@@ -343,7 +344,6 @@ nav{
 .bottom{
     height: 80px;
     background-color: var(--spoty-bottom);
-    z-index: 1000;
 }
 
 .left, .right-icons{
