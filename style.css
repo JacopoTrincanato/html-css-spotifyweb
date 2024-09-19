@@ -334,9 +334,19 @@ nav{
 .bottom{
     height: 80px;
     background-color: var(--spoty-bottom);
+    z-index: 1000;
 }
 
+.left, .right-icons{
+    flex-grow: 1;
+}
 
+.right-icons{
+    justify-content: flex-end;
+}
+.center{
+    flex-grow: 2;
+}
 
 .left{
 
@@ -380,13 +390,12 @@ nav{
 .timer{
     color: white;
     strong{
-        font-size: 0.6rem;
-        
+        font-size: 0.7rem;
     }
 }
 
 .audiobar{
-    width: 250px;
+    width: 600px;
     background-color: var(--spoty-topbar-text);
 }
 
@@ -415,6 +424,10 @@ nav{
     width: 100px;
     background-color: var(--spoty-topbar-text);
     margin-right: 1rem;
+}
+
+.audiobar, .audiobar-sm, .left-time{
+    border-radius: 3px;
 }
 
 /* breackpoint lg maggiore di 1100px */
