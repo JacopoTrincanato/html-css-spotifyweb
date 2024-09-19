@@ -78,10 +78,6 @@ h2, .img-title, .home, .playlist{
     padding: 0.75rem;
 }
 
-.d-none{
-    display: none;
-}
-
 /*#utilities region*/
 .d-flex{
     display: flex;
@@ -114,6 +110,10 @@ h2, .img-title, .home, .playlist{
 
 .fd-column{
     flex-direction: column;
+}
+
+.d-none{
+    display: none;
 }
 
 .space-between{
@@ -205,6 +205,22 @@ nav li{
     padding: 0.75rem;
 }
 
+.album-img img{
+    position: relative;
+}
+
+.img-content{
+    top: 0;
+    left: 0;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.album-img img:hover{
+    opacity: 1;
+}
+
 a:hover, .download a:hover, .left-icons i:hover{
     color: white;
 }
@@ -215,10 +231,6 @@ a:hover, .download a:hover, .left-icons i:hover{
 
 .topbar a:hover{
     font-size: 1rem;
-}
-
-img:hover{
-    color: rgba(0, 0, 0, 0.5);
 }
 
 .special:after{
@@ -351,14 +363,16 @@ nav{
     font-size: 0.8rem;
 }
 
-.audiobar{
-    width: 100%;
-    height: 2px;
+.timer{
     color: white;
-
     strong{
         font-size: 0.7rem;
     }
+}
+
+.audiobar{
+    width: 300px;
+    height: 2px;
 }
 
 .left-time{
@@ -413,14 +427,14 @@ nav{
     }
 
     .li-sm{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     
 }
 
 
 /* breackpoint sm minore di 600 */
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 600px) {
 
     .col-sm-6 {
         width: calc((100% / 12) * 6);
@@ -428,6 +442,10 @@ nav{
 
     .col-sm-4 {
         width: calc((100% / 12) * 4);
+    }
+
+    .col-sm-3 {
+        width: calc((100% / 12) * 3);
     }
 
     .sidebar-sm{
@@ -443,9 +461,9 @@ nav{
         overflow-y: auto;
     }
 
-    .li-xm{
+    /*.li-xm{
         font-size: 0.3rem;
-    }
+    }*/
 
     .d-block{
         display: block;
@@ -463,6 +481,10 @@ nav{
 
     .icons-sm{
         font-size: 0.6rem;
+    }
+
+    .centers{
+        width: 20%;
     }
 
 }
