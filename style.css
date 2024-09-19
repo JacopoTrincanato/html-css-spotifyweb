@@ -477,6 +477,24 @@ nav{
 
 }
 
+/* breackpoint m minore di 940 */
+@media screen and (max-width: 940px) {
+
+    .icons-sm{
+        font-size: 0.6rem;
+    }
+
+    .rights-icons, .lefts{
+        width: 20%;
+    }
+
+    .centers{
+        width: 40%;
+    }
+
+    
+}
+
 
 /* breackpoint m minore di 700 */
 @media screen and (max-width: 700px) {
@@ -529,9 +547,10 @@ nav{
         
     }
 
-    /*.download:after{
-        display: none;
-    }*/
+}
+
+/* breackpoint m minore di 940 */
+@media screen and (max-width: 940px) {
 
     .icons-sm{
         font-size: 0.6rem;
@@ -545,4 +564,5 @@ nav{
         width: 40%;
     }
 
+    
 }
