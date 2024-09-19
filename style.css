@@ -373,7 +373,7 @@ nav{
 }
 
 .right-icons i{
-    padding: 0.25rem 1.5rem;
+    padding: 0.35rem;
     font-size: 0.8rem;
 }
 
@@ -393,6 +393,10 @@ nav{
 .left-time{
     background-color: #c1c1c1;
     width: 30%;
+}
+
+.left-time:hover{
+    background-color: var(--spoty-line);
 }
 
 .right-time{
