@@ -173,6 +173,10 @@ h2, .img-title, .home, .playlist{
     background-color: var(--spoty-topbar);
 }
 
+.favicon{
+    color: white;
+}
+
 .content{
     height: 100%;
     width: calc(100% - 180px);
@@ -303,6 +307,11 @@ a:hover, .download a:hover, .left-icons i:hover, .white a{
 
 .download img{
     width: 10px;
+}
+
+.playlist li{
+    font-size: 0.6rem;
+    line-height: 1.2rem;
 }
 
 .ml{
@@ -518,11 +527,6 @@ nav{
     .d-block{
         display: block;
         
-    }
-
-    .logo img{
-        color: var(--spoty-white);
-        width: 20px;
     }
 
     /*.download:after{
