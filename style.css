@@ -174,7 +174,7 @@ h2, .img-title, .home, .playlist{
 }
 
 .logo-sm{
-    color: white;
+    color: var(--spoty-white);
 }
 
 .content{
@@ -203,7 +203,7 @@ nav li{
     border: 2px solid var(--spoty-button);
     border-radius: 1.5rem;
     font-size: 0.8rem;
-    text-align: end;
+    margin-right: 0.5rem;
 }
 
 .special{
@@ -219,7 +219,7 @@ nav li{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: var(--spoty-white);
     display: none;
 }
 
@@ -246,11 +246,11 @@ nav li{
 }
 
 a:hover, .download a:hover, .left-icons i:hover, .white a{
-    color: white;
+    color: var(--spoty-white);
 }
 
 .bg-grey:hover{
-    background-color: white;
+    background-color: var(--spoty-white);
 }
 
 .topbar a:hover{
@@ -460,9 +460,6 @@ nav{
 /* breackpoint lg maggiore di 1100px */
 @media screen and (max-width: 1100px) {
 
-    .col-lg-1 {
-        width: calc((100% / 12) * 1);
-    }
 
     .col-lg-2 {
         width: calc((100% / 12) * 2);
@@ -489,7 +486,6 @@ nav{
         width: 40%;
     }
 
-    
 }
 
 
@@ -541,7 +537,6 @@ nav{
 
     .d-block{
         display: block;
-        
     }
 
     .center-icons-xs i{
@@ -555,5 +550,9 @@ nav{
 
     .centers-xs{
         width: 20%;
-    }  
+    } 
+    
+    .audiobar-xs{
+        width: 30%;
+    }
 }
