@@ -171,10 +171,6 @@ h2, .img-title, .home, .playlist{
 .topbar{
     height: 60px;
     background-color: var(--spoty-topbar);
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1000;
 }
 
 .content{
@@ -305,11 +301,6 @@ a:hover, .download a:hover, .left-icons i:hover, .white a{
     color: var(--spoty-primary-sidebar);
 }
 
-/*.bottom-nav{
-    position: absolute;
-    bottom: 0;
-}*/
-
 .download img{
     width: 10px;
 }
@@ -406,11 +397,27 @@ nav{
 .audiobar{
     width: 600px;
     background-color: var(--spoty-topbar-text);
+    position: relative;
 }
 
 .left-time{
     background-color: #c1c1c1;
     width: 30%;
+}
+
+.circle{
+    position: absolute;
+    width: 10px;
+    aspect-ratio: 1;
+    background-color: white;
+    left: 29%;
+    top: -3px;
+    border-radius: 50%;
+    display: none;
+}
+
+.audiobar:hover .circle, .audiobar-sm:hover .circle{
+    display: block;
 }
 
 .left-time:hover{
@@ -433,6 +440,7 @@ nav{
     width: 100px;
     background-color: var(--spoty-topbar-text);
     margin-right: 1rem;
+    position: relative;
 }
 
 .audiobar, .audiobar-sm, .left-time{
@@ -517,16 +525,20 @@ nav{
         width: 20px;
     }
 
-    .download:after{
+    /*.download:after{
         display: none;
-    }
+    }*/
 
     .icons-sm{
         font-size: 0.6rem;
     }
 
-    /*.centers{
+    .rights-icons, .lefts{
         width: 20%;
-    }*/
+    }
+
+    .centers{
+        width: 40%;
+    }
 
 }
