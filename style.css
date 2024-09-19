@@ -235,7 +235,7 @@ nav li{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-a:hover, .download a:hover, .left-icons i:hover{
+a:hover, .download a:hover, .left-icons i:hover, .white a{
     color: white;
 }
 
@@ -373,38 +373,43 @@ nav{
 }
 
 .right-icons i{
-    padding: 0.25rem 0.75rem;
+    padding: 0.25rem 1.5rem;
     font-size: 0.8rem;
 }
 
 .timer{
     color: white;
     strong{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        flex-grow: 1;
     }
 }
 
 .audiobar{
-    width: 300px;
-    height: 2px;
+    width: 250px;
+    background-color: var(--spoty-topbar-text);
 }
 
 .left-time{
-    color: var(--spoty-topbar-text);
+    background-color: #c1c1c1;
     width: 30%;
 }
 
 .right-time{
-    color: var(--spoty-primary-sidebar);
     width: 70%;
 }
 
-.left-time, .right-time{
-    height: 2px;
+.left-time, .right-time, .audiobar, .audiobar-sm{
+    height: 4px;
 }
 
 .fa-circle-play:hover{
     font-size: 3rem;
+}
+
+.audiobar-sm{
+    width: 100px;
+    background-color: var(--spoty-topbar-text);
 }
 
 /* breackpoint lg maggiore di 1100px */
@@ -475,10 +480,6 @@ nav{
         overflow-y: auto;
     }
 
-    /*.li-xm{
-        font-size: 0.3rem;
-    }*/
-
     .d-block{
         display: block;
         
@@ -497,8 +498,8 @@ nav{
         font-size: 0.6rem;
     }
 
-    .centers{
+    /*.centers{
         width: 20%;
-    }
+    }*/
 
 }
