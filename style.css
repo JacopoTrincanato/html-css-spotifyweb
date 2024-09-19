@@ -211,14 +211,19 @@ nav li{
 
 .img-content{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: none;
 }
 
-.album-img img:hover .img-content i{
+.album-img img:hover .img-content{
     display: block;
 }
 
 .album-img img:hover{
-    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 a:hover, .download a:hover, .left-icons i:hover{
