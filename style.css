@@ -205,20 +205,20 @@ nav li{
     padding: 0.75rem;
 }
 
-.album-img img{
+.album-img{
     position: relative;
 }
 
 .img-content{
-    top: 0;
-    left: 0;
     position: absolute;
-    color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
+}
+
+.album-img img:hover .img-content i{
+    display: block;
 }
 
 .album-img img:hover{
-    opacity: 1;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 a:hover, .download a:hover, .left-icons i:hover{
