@@ -203,6 +203,7 @@ nav li{
     border: 2px solid var(--spoty-button);
     border-radius: 1.5rem;
     font-size: 0.8rem;
+    text-align: end;
 }
 
 .special{
