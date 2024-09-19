@@ -232,7 +232,7 @@ nav li{
 }
 
 .album-img img:hover{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 a:hover, .download a:hover, .left-icons i:hover, .white a{
@@ -296,10 +296,10 @@ a:hover, .download a:hover, .left-icons i:hover, .white a{
     color: var(--spoty-primary-sidebar);
 }
 
-.bottom-nav{
+/*.bottom-nav{
     position: absolute;
     bottom: 0;
-}
+}*/
 
 .download img{
     width: 10px;
@@ -307,6 +307,7 @@ a:hover, .download a:hover, .left-icons i:hover, .white a{
 
 .ml{
     margin-left: 0.5rem;
+    font-size: 0.9rem;
 }
 
 .active{
@@ -371,7 +372,6 @@ nav{
 .center-icons i{
     padding: 0.5rem 1.5rem;
 }
-
 .right-icons i{
     padding: 0.35rem;
     font-size: 0.8rem;
@@ -381,7 +381,7 @@ nav{
     color: white;
     strong{
         font-size: 0.6rem;
-        flex-grow: 1;
+        
     }
 }
 
@@ -414,6 +414,7 @@ nav{
 .audiobar-sm{
     width: 100px;
     background-color: var(--spoty-topbar-text);
+    margin-right: 1rem;
 }
 
 /* breackpoint lg maggiore di 1100px */
