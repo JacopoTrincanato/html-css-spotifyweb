@@ -307,8 +307,13 @@ a:hover, .download a:hover, .left-icons i:hover, .white a{
     color: var(--spoty-primary-sidebar);
 }
 
+.download a, .download img{
+    vertical-align: middle;
+}
+
 .download img{
-    width: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .playlist li{
