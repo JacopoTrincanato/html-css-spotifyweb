@@ -281,7 +281,8 @@ a:hover, .download a:hover, .left-icons i:hover, .white a{
 }
 
 .profile-img img{
-    width: 25px;
+    width: 40px;
+    height: 40px;
     background-color: var(--spoty-primary-sidebar);
     border-radius: 50%;
     margin-right: 10px;
@@ -542,6 +543,11 @@ nav{
     .center-icons-xs i{
         padding: 0.5rem;
     }  
+
+    .profile-img img{
+        width: 20px;
+        height: 20px;
+    }
 
 }
 
