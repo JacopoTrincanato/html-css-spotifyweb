@@ -83,6 +83,10 @@ h2, .img-title, .home, .playlist{
     display: flex;
 }
 
+.gap{
+    gap: 10px;
+}
+
 .m-top{
     margin-top: 0.5rem;
 }
